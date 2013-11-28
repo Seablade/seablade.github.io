@@ -1,5 +1,9 @@
 #+SETUPFILE: ._articles.org
 #+TITLE: The Production Triangle
+#+BEGIN_HTML
+layout: post
+title: {{{title}}}
+#+END_HTML
 
 So there is a concept I learned in the scene shop of theater, but
 applies across multiple disciplines in various forms.  The one I
