@@ -1,0 +1,38 @@
+#+SETUPFILE: ._articles.org
+#+TITLE: The Production Triangle
+
+So there is a concept I learned in the scene shop of theater, but
+applies across multiple disciplines in various forms.  The one I
+learned was called the "Production Triangle".
+
+* Production Triangle
+:
+:                      Time
+:                       /\
+:                      /  \
+:                     /    \
+:                    /      \
+:                   /        \
+:                  /----------\
+:              Quality       Money
+:
+
+The basics of the triangle is that in any project you can have two out
+of the three corners.  So there are effectively three different
+permutations of this concept:
+ - you can have something fast, and high quality, but it is going to
+   take a lot of money
+ - you can have something high quality for cheap, but it will require
+   a lot of time.
+ - you could have something fast and cheap, but it will be low
+   quality.
+
+This is a concept that if people can think about it and understand it,
+can save so much headache in planning and working with other people,
+in particular if you are trying to work to execute their vision.  So
+in theater, in the scene shop, explaining to the scenic designer why
+they can't have everything their huge extravagant set requires.  Or
+most recently for myself, when explaining to a client that has hired
+me to design a sound system for them, why when you cut back on the
+budget you are going to lose quality, as often times in that situation
+the time variable is set, and cannot be changed.
