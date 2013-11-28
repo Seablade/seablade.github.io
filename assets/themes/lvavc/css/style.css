@@ -1,10 +1,10 @@
-.navbar a.brand {
+.navbar .avbar-header a.navbar-brand {
         font-family: egothb;
         font-size: 26px;
         color: #555555;
 }
 
-div.navbar-inner {
+div.navbar {
                  background-color: #ffffff;
                  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
                  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
