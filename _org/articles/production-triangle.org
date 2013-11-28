@@ -2,7 +2,7 @@
 #+TITLE: The Production Triangle
 #+BEGIN_HTML
 ---
-layout: post
+layout: page
 title: {{{title}}}
 ---
 #+END_HTML
