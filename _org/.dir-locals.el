@@ -19,7 +19,8 @@
                    :html-preamble " "          ; Contents of preamble 
 		   :html-postamble " "         ; Contents of postamble
 		   :style-include-default nil  ;Disable the default css style
-		   )
+		   :body-only t                ; Only export section between <body> and </body>
+                   )
 		  ("org-static"                ;Used to publish static files
 		   :base-directory "~/Sites/Github/static/"
 		   :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
