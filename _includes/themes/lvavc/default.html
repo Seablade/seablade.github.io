@@ -32,6 +32,7 @@
   </head>
 
   <body>
+    <div class="container">
     <nav class="navbar navbar-default" role="navigation">
 	  <!-- Brand and toggle get grouped for better mobile display -->
 	  <div class="navbar-header">
@@ -54,16 +55,16 @@
 	  </div><!-- /.navbar-collapse -->
 	</nav>
   
-    <div class="container">
+
 
         {{ content }}
       <hr>
-    </div>
+
     <footer>
       <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
       </p>
     </footer>
-
+    </div>
     {% include JB/analytics %}
     <script src="{{ ASSET_PATH }}/bootstrap/resources/jquery/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/resources/bootstrap/js/bootstrap.min.js"></script>
