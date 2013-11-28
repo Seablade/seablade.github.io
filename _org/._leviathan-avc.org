@@ -1,5 +1,0 @@
-#+begin_navbar
- - [[file:index.html][Home]]
- - Articles
-  - [[file:articles/production-triangle.org][The Production Triangle]]
-#+end_navbar
