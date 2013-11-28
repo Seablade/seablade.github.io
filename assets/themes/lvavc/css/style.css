@@ -3,8 +3,12 @@ a.brand {
 }
 
 div.navbar-inner {
-                 background-color: "#ffffff";
-                 background-image: "";
+                 background-color: #ffffff;
+                 background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+                 background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+                 background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+                 background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+                 background-image: linear-gradient(to bottom, #ffffff, #ffffff);
 }
 
 /* Font Section */
