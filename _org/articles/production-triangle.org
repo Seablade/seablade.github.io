@@ -4,6 +4,9 @@
 ---
 layout: page
 title: {{{title}}}
+tagline: Why can't I have it all?
+category: Articles
+tags: [Production, Articles]
 ---
 #+END_HTML
 
