@@ -4,7 +4,7 @@
         color: #555555;
 }
 
-div.navbar-default {
+.navbar-default {
                  background-color: #ffffff;
                  /* background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
                  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
