@@ -1,6 +1,7 @@
 a.brand {
         font-family: egothb;
-        font-size: 4em;
+        font-size: 26px;
+        color: #555555;
 }
 
 div.navbar-inner {
