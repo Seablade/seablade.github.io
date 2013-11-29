@@ -16,14 +16,15 @@ is something like this...
 "Hey I should write an article on this!... but I don't have anywhere
 to put it and really don't want to create it at the moment"
 
-* It begins with Org-Mode Publish
+* It begins
+** Org-Mode Publish
 
 This journey began with exploring just Emacs' Org-Mode Publish
 functionality, but it was determined that it just wasn't a simple
 enough process to update a list of articles, vs posts, vs anything
 else.
 
-* Jekyll/Github-Pages
+** Jekyll/Github-Pages
 
 After this I decided to look into Jekyll itself, which does in fact
 provide the needed functionality.  After a little digging, I decided
