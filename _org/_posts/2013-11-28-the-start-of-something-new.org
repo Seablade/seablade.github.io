@@ -1,5 +1,5 @@
 #+SETUPFILE: ../._setup.org
-#+TITLE: The start of something new...
+#+TITLE: The start of something new
 
 #+BEGIN_HTML
 ---
