@@ -17,11 +17,6 @@ author :
 #  twitter : username
 #  feedburner : feedname
 
-# This is to allow for certain topics for articles
-# so that you can look for an article by topic
-#
-topics : [Audio, Video, Computers, Technology, Religion, Wireless Microphones, Mixing, DIY]
-
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
