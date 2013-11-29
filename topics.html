@@ -1,0 +1,21 @@
+---
+layout: page
+title: Article Topics
+header: Articles Listed by Topics
+group: navigation
+---
+{% for cat in site.topics %}
+### {{ cat }}
+<ul>
+{% for page in site.pages %}
+{% if page.article == true %}
+{% for pc in page.topics %}
+{% if pc == cat %}
+<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{% endif %}   <!-- cat-match-p -->
+{% endfor %}  <!-- page-category -->
+{% endif %}   <!-- resource-p -->
+{% endfor % } <!-- page -->
+</ul>
+{% endfor %}  <!-- cat -->
+
