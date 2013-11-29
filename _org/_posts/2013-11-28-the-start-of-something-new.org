@@ -16,7 +16,7 @@ is something like this...
 "Hey I should write an article on this!... but I don't have anywhere
 to put it and really don't want to create it at the moment"
 
-* It begins
+* It begins...
 ** Org-Mode Publish
 
 This journey began with exploring just Emacs' Org-Mode Publish
