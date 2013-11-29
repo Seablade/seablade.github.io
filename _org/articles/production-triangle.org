@@ -5,6 +5,8 @@
 layout: page
 title: {{{title}}}
 tagline: Why can't I have it all?
+article: true
+topics: Audio, Video
 category: Articles
 tags: [Production, Articles]
 ---
