@@ -1,3 +1,8 @@
+pre {
+    font-family: monospace;
+    line-height: normal;
+}
+
 body{
         min-width: 360px;
         width: auto !important;
