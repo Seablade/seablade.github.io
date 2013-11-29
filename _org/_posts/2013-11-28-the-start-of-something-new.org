@@ -16,12 +16,14 @@ is something like this...
 "Hey I should write an article on this!... but I don't have anywhere
 to put it and really don't want to create it at the moment"
 
-* It Begins...
+* It begins with Org-Mode Publish
 
 This journey began with exploring just Emacs' Org-Mode Publish
 functionality, but it was determined that it just wasn't a simple
 enough process to update a list of articles, vs posts, vs anything
 else.
+
+* Jekyll/Github-Pages
 
 After this I decided to look into Jekyll itself, which does in fact
 provide the needed functionality.  After a little digging, I decided
@@ -29,6 +31,8 @@ to start with Jekyll-Bootstrap, which provides a basic environment for
 integrating bootstrap into Jekyll, which is what Github-Pages uses.
 After more digging I found a fork of Jekyll-Bootstrap that uses
 Bootstrap v3, which I have switched to.
+
+* Frameworks
 
 In terms of frameworks, I settled on bootstrap after going through a
 couple options.  I actually started with bootstrap when using
@@ -45,6 +49,8 @@ into it, it was going to take more work than I personally wanted to
 invest to get the functionality I wanted out of the site.  I ended up
 going back to bootstrap in the end just due to the amount of work
 already done in it.
+
+** Issues with Frameworks
 
 My main issue with bootstrap, and indeed most frameworks, has to do
 with the purpose of CSS vs HTML styling.  CSS is intended to be able
