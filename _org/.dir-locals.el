@@ -22,9 +22,9 @@
 		   :body-only t                ; Only export section between <body> and </body>
                    )
 		  ("github-static"                ;Used to publish static files
-		   :base-directory "~/Sites/Github/_org/assets/"
+		   :base-directory "~/Sites/Github/_org/"
 		   :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
-		   :publishing-directory "~/Sites/Github/assets/"
+		   :publishing-directory "~/Sites/Github/"
 		   :recursive t
 		   :publishing-function org-publish-attachment
 		   )

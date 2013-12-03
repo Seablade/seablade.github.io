@@ -9,6 +9,6 @@ tagline: Something new this way comes
 ---
 #+END_HTML
 
-[[file:assets/images/console.jpg]]
+[[file:images/console.jpg]]
 
 Keep an eye on this space....
