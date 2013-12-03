@@ -3,7 +3,7 @@
 
 #+BEGIN_HTML
 ---
-layout: page
+layout: frontpage
 title: {{{title}}}
 tagline: Something new this way comes
 ---
