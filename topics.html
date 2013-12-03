@@ -14,10 +14,10 @@ group: navigation
       {% for topic in page.topics %}
         {% if topic == cat %}
           <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endif %}   <!-- cat-match-topic -->
-     {% endfor %}  <!-- page-category -->
-   {% endif %}   <!-- resource-p -->
- {% endfor %} <!-- page -->
+        {% endif %}
+     {% endfor %}
+   {% endif %}
+ {% endfor %}
 </ul>
-{% endfor %}  <!-- cat -->
+{% endfor %}
 

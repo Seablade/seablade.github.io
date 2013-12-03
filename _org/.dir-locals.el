@@ -1,5 +1,5 @@
 ((nil . ((org-publish-project-alist
-	      . (("org-notes"               ;Used to export .org file
+	      . (("github-notes"               ;Used to export .org file
 		   :base-directory "~/Sites/Github/_org/"  ;directory holds .org files 
 		   :base-extension "org"     ;process .org file only    
 		   :publishing-directory "~/Sites/Github/"    ;export destination
@@ -21,13 +21,13 @@
 		   :style-include-default nil  ;Disable the default css style
 		   :body-only t                ; Only export section between <body> and </body>
                    )
-		  ("org-static"                ;Used to publish static files
-		   :base-directory "~/Sites/Github/static/"
+		  ("github-static"                ;Used to publish static files
+		   :base-directory "~/Sites/Github/_org/assets/"
 		   :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf"
-		   :publishing-directory "~/Sites/Github/"
+		   :publishing-directory "~/Sites/Github/assets/"
 		   :recursive t
 		   :publishing-function org-publish-attachment
 		   )
-		  ("github-blog" :components ("org-notes")) ; Combine into one function call, add "org-static" with a space if desired 
+		  ("github" :components ("github-notes" "github-static")) ; Combine into one function call, add "org-static" with a space if desired 
 		  )))
 ))
