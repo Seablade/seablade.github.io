@@ -56,14 +56,14 @@ body{
 }
 
 .carousel.item{
-    max-width: 1600px; //the largest you want the image to stretch
+    max-width: 1920px; //the largest you want the image to stretch
     min-width: 900px; //the "container" width 
     overflow: hidden;
 }
 .carousel-inner{
-   width: 1600px;
+   width: 1920px;
    left: 50%;
-   margin-left: -800px;
+   margin-left: -960px;
 }
 /* Font Section */
 
