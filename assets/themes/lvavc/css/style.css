@@ -83,6 +83,7 @@ body{
 .carousel-caption {
     background: "";
     background: rgba(20, 20, 20, .6);
+    width: 100%;
 }
 
 /* Font Section */
