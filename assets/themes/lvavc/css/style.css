@@ -69,10 +69,12 @@ body{
 .carousel-caption h1:first-letter {
     font-family: egothb;
     font-size: 200%;
+    text-transform:capitalize;
 }
 
 .carousel-caption h1 {
     font-family: egothb;
+    text-transform:capitalize;
 }
 
 /* Font Section */
