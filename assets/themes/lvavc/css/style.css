@@ -32,7 +32,8 @@ body{
 
 #nav.affix {
     top: 0px;
-    width: 90%;
+    width: inherit;
+    color: #fff;
 }
 
 /* Font Section */
