@@ -55,7 +55,7 @@ body{
     background-color: #fff;
 }
 
-.carousel .item img {
+.carousel .item {
     height: 500px;
     width: 100%;
 }
