@@ -33,7 +33,7 @@ body{
     top: 0px;
 }
 
-nav.affix {
+.nav .affix {
     width: 100%;
 }
 
