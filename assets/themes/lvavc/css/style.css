@@ -41,6 +41,7 @@ body{
 
 .carousel {
     margin-bottom: 60px;
+    overflow-x: hidden;
 }
 
 #nav-wrapper {
