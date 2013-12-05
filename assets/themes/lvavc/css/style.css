@@ -55,15 +55,19 @@ body{
     background-color: #fff;
 }
 
-.carousel.item{
+.carousel.item {
     max-width: 1920px; //the largest you want the image to stretch
     min-width: 900px; //the "container" width 
     overflow: hidden;
 }
-.carousel-inner{
+.carousel-inner {
    width: 1920px;
    left: 50%;
    margin-left: -960px;
+}
+
+.carousel-caption {
+
 }
 /* Font Section */
 
