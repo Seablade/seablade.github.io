@@ -71,11 +71,13 @@ body{
     font-family: egothb;
     font-size: 150%;
     text-transform:capitalize;
+    opacity: 1.0
 }
 
 .carousel-caption h1 {
     font-family: egothb;
     text-transform:capitalize;
+    opacity: 1.0
 }
 
 .carousel-caption {
