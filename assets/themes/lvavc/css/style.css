@@ -66,8 +66,8 @@ body{
    margin-left: -960px;
 }
 
-.carousel-caption {
-
+.carousel-caption h1 {
+    font-family: egothb;
 }
 /* Font Section */
 
