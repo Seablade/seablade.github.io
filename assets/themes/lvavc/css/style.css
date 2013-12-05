@@ -26,7 +26,6 @@ body{
 
 .navbar-collapse {
     position: relative;
-    float: right;
 }
 
 #nav.affix {
