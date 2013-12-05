@@ -53,16 +53,8 @@ body{
 
 .carousel .item {
     background-color: #fff;
-}
-
-.carousel .item {
-    height: 500px;
-    width: 100%;
-}
-
-.carousel .item img {
-    height: 1080px;
-    width: 1920px;
+    height: auto;
+    max-width: 100%;
 }
 
 /* Font Section */
