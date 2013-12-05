@@ -4,23 +4,28 @@ pre {
 }
 
 body{
-        min-width: 360px;
-        width: auto !important;
+    min-width: 360px;
+    width: auto !important;
 }
 
 .navbar .navbar-header a.navbar-brand {
-        font-family: egothb;
-        font-size: 26px;
-        color: #555555;
+    font-family: egothb;
+    font-size: 26px;
+    color: #555555;
+    position: relative;
 }
 
 .navbar-default {
-                 background-color: #ffffff;
-                 /* background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
-                 background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
-                 background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
-                 background-image: -o-linear-gradient(top, #ffffff, #ffffff);
-                 background-image: linear-gradient(to bottom, #ffffff, #ffffff); */
+    background-color: #ffffff;
+    /* background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff); */
+}
+
+.navbar-collapse {
+    position: relative;
 }
 
 .affix {
