@@ -39,29 +39,6 @@
 <!-- NAVBAR
 ================================================== -->
   <body style="">
-      <div class="container">
-        <nav class="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="0" data-offset-bottom="0">
-        <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-		  <span class="sr-only">Toggle navigation</span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-	    </div>
-
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse navbar-ex1-collapse">
-		<ul class="nav navbar-nav">
-		  {% assign pages_list = site.pages %}
-		  {% assign group = 'navigation' %}
-		  {% include JB/pages_list %}
-		</ul>
-	    </div><!-- /.navbar-collapse -->
-	  </nav>
-        </div>
 
     <!-- Carousel
     ================================================== -->
@@ -108,6 +85,33 @@
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
 
+    <!-- Navbar
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->    
+    
+      <div class="container">
+        <nav class="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="0" data-offset-bottom="0">
+        <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		  <span class="sr-only">Toggle navigation</span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		  <span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav">
+		  {% assign pages_list = site.pages %}
+		  {% assign group = 'navigation' %}
+		  {% include JB/pages_list %}
+		</ul>
+	    </div><!-- /.navbar-collapse -->
+	  </nav>
+        </div>
 
 
     <!-- Marketing messaging and featurettes
