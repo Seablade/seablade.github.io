@@ -24,9 +24,10 @@ body{
     background-image: linear-gradient(to bottom, #ffffff, #ffffff); */
 }
 
-.navbar-collapse {
+/*.navbar-collapse {
     position: relative;
-}
+    float: right;
+}*/
 
 #nav.affix {
     top: 0px;
