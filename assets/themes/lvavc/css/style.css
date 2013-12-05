@@ -36,6 +36,7 @@ body{
     width: 100%;
     left: auto;
     right: auto;
+    z-index: 1000;
 }
 
 .carousel {
