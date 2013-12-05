@@ -53,8 +53,7 @@ body{
 
 .carousel .item {
     background-color: #fff;
-    height: auto;
-    max-width: 100%;
+    min-height: 100%;
 }
 
 /* Font Section */
